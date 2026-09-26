@@ -144,7 +144,7 @@ const RegisterPage = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="e.g. Ramesh Kumar"
+                        placeholder="Your full name"
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         required
@@ -168,7 +168,7 @@ const RegisterPage = () => {
                       <input
                         type="tel"
                         className="form-control"
-                        placeholder="+91 98480 12345"
+                        placeholder="Your phone number"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         required

@@ -1,34 +1,5 @@
 {
-  "users": [
-    {
-      "id": "USR-001",
-      "name": "GVR Admin (Harini)",
-      "email": "hani.harini004@gmail.com",
-      "password": "admin123",
-      "role": "admin",
-      "phone": "+91 99088 62243",
-      "altPhone": "+91 94924 61603",
-      "address": "Reddy Palem, Nuthalapadu, Parchur Mandal, Prakasam District, Andhra Pradesh"
-    },
-    {
-      "id": "USR-002",
-      "name": "GVR Admin (Demo)",
-      "email": "admin@gvr.com",
-      "password": "admin123",
-      "role": "admin",
-      "phone": "+91 99088 62243",
-      "address": "Reddy Palem, Nuthalapadu, Parchur Mandal, Prakasam District, Andhra Pradesh"
-    },
-    {
-      "id": "USR-003",
-      "name": "Ramesh Kumar",
-      "email": "user@gvr.com",
-      "password": "user123",
-      "role": "user",
-      "phone": "+91 99088 62243",
-      "address": "Reddy Palem, Nuthalapadu, Parchur Mandal, Prakasam District, Andhra Pradesh"
-    }
-  ],
+  "users": [],
   "products": [
     {
       "id": "PROD-01",
@@ -274,70 +245,7 @@
       "bestFor": "Corporate Seminars, Product Launches & AGMs"
     }
   ],
-  "bookings": [
-    {
-      "id": "GVR-2026-1001",
-      "userId": "USR-002",
-      "customerName": "Ramesh Kumar",
-      "customerPhone": "+91 98480 12345",
-      "customerEmail": "user@gvr.com",
-      "eventType": "Wedding Ceremony",
-      "eventDate": "2026-10-15",
-      "durationDays": 2,
-      "venueAddress": "Sri Venkateswara Kalyana Mandapam, Ring Road, Vijayawada",
-      "packageId": "PKG-01",
-      "packageName": "Grand Royal Wedding Setup",
-      "customItems": [],
-      "guestCount": 800,
-      "totalAmount": 170000,
-      "advancePaid": 50000,
-      "status": "Confirmed",
-      "notes": "Need setup completed 6 hours before Muhurtham.",
-      "createdAt": "2026-09-10T10:30:00Z"
-    },
-    {
-      "id": "GVR-2026-1002",
-      "userId": "USR-002",
-      "customerName": "Ramesh Kumar",
-      "customerPhone": "+91 98480 12345",
-      "customerEmail": "user@gvr.com",
-      "eventType": "Birthday Party",
-      "eventDate": "2026-10-28",
-      "durationDays": 1,
-      "venueAddress": "Villa 12, Green Meadows, Guntur",
-      "packageId": "PKG-03",
-      "packageName": "Birthday Party & Family Celebration",
-      "customItems": [
-        { "id": "PROD-14", "name": "Industrial Mist Cooling Fans", "quantity": 2, "pricePerDay": 3200 }
-      ],
-      "guestCount": 80,
-      "totalAmount": 24400,
-      "advancePaid": 10000,
-      "status": "Pending",
-      "notes": "Prefer pastel colored canopy drapery.",
-      "createdAt": "2026-09-15T14:15:00Z"
-    },
-    {
-      "id": "GVR-2026-1003",
-      "userId": "USR-003",
-      "customerName": "Suresh Reddy",
-      "customerPhone": "+91 94401 56789",
-      "customerEmail": "suresh.reddy@gmail.com",
-      "eventType": "Reception",
-      "eventDate": "2026-09-02",
-      "durationDays": 1,
-      "venueAddress": "Royal Palace Gardens, Autonagar, Vijayawada",
-      "packageId": "PKG-02",
-      "packageName": "Reception & Sangeet Night Package",
-      "customItems": [],
-      "guestCount": 450,
-      "totalAmount": 55000,
-      "advancePaid": 55000,
-      "status": "Completed",
-      "notes": "Event successfully finished.",
-      "createdAt": "2026-08-25T09:00:00Z"
-    }
-  ],
+  "bookings": [],
   "services": [
     {
       "id": "SRV-01",
@@ -388,28 +296,5 @@
       "highlights": ["Silent acoustic enclosures", "100% fuel-included service options", "Continuous on-site operator", "Powerful mist fans & spot cooling"]
     }
   ],
-  "inquiries": [
-    {
-      "id": "INQ-001",
-      "name": "Kalyan Varma",
-      "phone": "+91 99887 76655",
-      "email": "kalyan@gmail.com",
-      "eventDate": "2026-11-20",
-      "eventType": "Wedding",
-      "message": "Looking for 50x80 ft German tent with AC and 500 chairs in Guntur.",
-      "date": "2026-09-14",
-      "status": "Responded"
-    },
-    {
-      "id": "INQ-002",
-      "name": "Ananya Sharma",
-      "phone": "+91 98112 33445",
-      "email": "ananya@yahoo.com",
-      "eventDate": "2026-10-05",
-      "eventType": "Corporate Exhibition",
-      "message": "Need 10 Pagoda canopies and lighting for a 2-day handloom expo.",
-      "date": "2026-09-17",
-      "status": "New"
-    }
-  ]
+  "inquiries": []
 }

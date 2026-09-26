@@ -34,17 +34,6 @@ Welcome to **GVR Suppliers**, a full-featured web application for a premier Tent
 
 ---
 
-## 🔐 Demo Credentials
-
-| Role | Email | Password | Access / Notes |
-| :--- | :--- | :--- | :--- |
-| **Admin** | `admin@gvr.com` | `admin123` | Full access to Admin Dashboard, inventory CRUD, and booking approvals |
-| **Customer** | `user@gvr.com` | `user123` | Access to personal bookings, new reservations, and invoices |
-
-> **Admin Registration Security Passkey**: When registering a new Admin account, enter the passkey: `GVR2026`.
-
----
-
 ## 🛠️ Tech Stack
 - **Frontend**: React 18 (JSX), Vite, React Router v6
 - **Styling**: Bootstrap 5.3, Bootstrap Icons, custom Google Fonts (*Playfair Display* & *Plus Jakarta Sans*)

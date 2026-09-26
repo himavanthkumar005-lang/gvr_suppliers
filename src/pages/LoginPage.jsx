@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 const LoginPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { login, loginDemoAdmin, loginDemoUser } = useAuth();
+  const { login } = useAuth();
 
   const [activeTab, setActiveTab] = useState('user'); // 'user' or 'admin'
   const [email, setEmail] = useState('');
@@ -30,21 +30,6 @@ const LoginPage = () => {
       setErrorMsg(err.message);
     } finally {
       setLoading(false);
-    }
-  };
-
-  const handleQuickDemo = async (role) => {
-    setErrorMsg('');
-    try {
-      if (role === 'admin') {
-        await loginDemoAdmin();
-        navigate('/admin');
-      } else {
-        await loginDemoUser();
-        navigate('/my-bookings');
-      }
-    } catch (err) {
-      setErrorMsg(err.message);
     }
   };
 
@@ -112,7 +97,7 @@ const LoginPage = () => {
                       <input
                         type="email"
                         className="form-control"
-                        placeholder={activeTab === 'admin' ? 'admin@gvr.com' : 'user@gvr.com'}
+                        placeholder={activeTab === 'admin' ? 'admin@example.com' : 'you@example.com'}
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
@@ -149,34 +134,6 @@ const LoginPage = () => {
                     )}
                   </button>
                 </form>
-
-                {/* Quick 1-Click Demo Login Box */}
-                <div className="bg-light p-3 rounded-3 border text-center mb-4">
-                  <small className="text-muted fw-bold text-uppercase d-block mb-2" style={{ fontSize: '0.7rem', letterSpacing: '0.5px' }}>
-                    Quick Test Credentials (1-Click Login)
-                  </small>
-                  {activeTab === 'admin' ? (
-                    <div>
-                      <button
-                        type="button"
-                        className="btn btn-sm btn-outline-danger w-100 fw-bold"
-                        onClick={() => handleQuickDemo('admin')}
-                      >
-                        <i className="bi bi-lightning-fill text-warning me-1"></i> Login as Demo Admin (admin@gvr.com)
-                      </button>
-                    </div>
-                  ) : (
-                    <div>
-                      <button
-                        type="button"
-                        className="btn btn-sm btn-outline-primary w-100 fw-bold"
-                        onClick={() => handleQuickDemo('user')}
-                      >
-                        <i className="bi bi-lightning-fill text-warning me-1"></i> Login as Demo Customer (user@gvr.com)
-                      </button>
-                    </div>
-                  )}
-                </div>
 
                 <div className="text-center small text-muted">
                   Don't have an account yet?{' '}

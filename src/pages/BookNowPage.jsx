@@ -299,7 +299,7 @@ const BookNowPage = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="e.g. Ramesh Kumar"
+                        placeholder="Your full name"
                         value={formData.customerName}
                         onChange={(e) => setFormData({ ...formData, customerName: e.target.value })}
                         required
@@ -310,7 +310,7 @@ const BookNowPage = () => {
                       <input
                         type="tel"
                         className="form-control"
-                        placeholder="e.g. +91 98480 12345"
+                        placeholder="Your phone number"
                         value={formData.customerPhone}
                         onChange={(e) => setFormData({ ...formData, customerPhone: e.target.value })}
                         required

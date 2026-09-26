@@ -43,14 +43,11 @@ export const AuthProvider = ({ children }) => {
 
   const logout = () => persist(null);
 
-  const loginDemoAdmin = () => login('admin@gvr.com', 'admin123', 'admin');
-  const loginDemoUser = () => login('user@gvr.com', 'user123', 'user');
-
   const isAdmin = currentUser?.role === 'admin';
   const isAuthenticated = !!currentUser;
 
   return (
-    <AuthContext.Provider value={{ currentUser, isAuthenticated, isAdmin, login, register, logout, loginDemoAdmin, loginDemoUser }}>
+    <AuthContext.Provider value={{ currentUser, isAuthenticated, isAdmin, login, register, logout }}>
       {children}
     </AuthContext.Provider>
   );

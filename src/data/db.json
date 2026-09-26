@@ -1,0 +1,415 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "GVR Admin (Harini)",
+      "email": "hani.harini004@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "+91 99088 62243",
+      "altPhone": "+91 94924 61603",
+      "address": "Reddy Palem, Nuthalapadu, Parchur Mandal, Prakasam District, Andhra Pradesh"
+    },
+    {
+      "id": "USR-002",
+      "name": "GVR Admin (Demo)",
+      "email": "admin@gvr.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "+91 99088 62243",
+      "address": "Reddy Palem, Nuthalapadu, Parchur Mandal, Prakasam District, Andhra Pradesh"
+    },
+    {
+      "id": "USR-003",
+      "name": "Ramesh Kumar",
+      "email": "user@gvr.com",
+      "password": "user123",
+      "role": "user",
+      "phone": "+91 99088 62243",
+      "address": "Reddy Palem, Nuthalapadu, Parchur Mandal, Prakasam District, Andhra Pradesh"
+    }
+  ],
+  "products": [
+    {
+      "id": "PROD-01",
+      "name": "Waterproof German Hanger Tent (60x40 ft)",
+      "category": "Tents & Shamianas",
+      "pricePerDay": 18000,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80",
+      "description": "High-grade aluminum frame with heavy PVC German waterproof fabric. Ideal for grand weddings, exhibitions, and corporate gatherings.",
+      "featured": true
+    },
+    {
+      "id": "PROD-02",
+      "name": "Royal Arabian Canopy Tent (20x20 ft)",
+      "category": "Tents & Shamianas",
+      "pricePerDay": 6500,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80",
+      "description": "Elegant white Arabian marquee tent with interior scalloped ceiling drapery and golden tassels.",
+      "featured": true
+    },
+    {
+      "id": "PROD-03",
+      "name": "Traditional Silk Shamiana with Floral Ceilings",
+      "category": "Tents & Shamianas",
+      "pricePerDay": 4500,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?auto=format&fit=crop&w=800&q=80",
+      "description": "Classic festive fabric shamiana with traditional prints, sidewalls, and colorful pleats.",
+      "featured": false
+    },
+    {
+      "id": "PROD-04",
+      "name": "VIP Maharaja Wedding Sofa (Gold & Velvet)",
+      "category": "Chairs & Tables",
+      "pricePerDay": 3500,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+      "description": "Carved gold-leaf royal high-back sofa set with matching couple footrests for stage setups.",
+      "featured": true
+    },
+    {
+      "id": "PROD-05",
+      "name": "Banquet Chairs with White Spandex Covers (Set of 50)",
+      "category": "Chairs & Tables",
+      "pricePerDay": 2500,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "description": "Cushioned iron banquet chairs fitted with clean stretch spandex covers and colored organza bows.",
+      "featured": false
+    },
+    {
+      "id": "PROD-06",
+      "name": "Round Dining Tables with Silk Cloths (Set of 5)",
+      "category": "Chairs & Tables",
+      "pricePerDay": 1500,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80",
+      "description": "5-ft circular round wooden tables with heavy steel folding legs and stain-resistant golden/white linens.",
+      "featured": false
+    },
+    {
+      "id": "PROD-07",
+      "name": "Grand Floral Mandapam with Brass Pillars",
+      "category": "Stages & Mandapams",
+      "pricePerDay": 25000,
+      "stock": 5,
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+      "description": "Traditional South-Indian & North-Indian style temple mandapam architecture with dome, floral chandeliers, and sacred homam pit staging.",
+      "featured": true
+    },
+    {
+      "id": "PROD-08",
+      "name": "Modular Event Stage with Red Carpet (24x16 ft)",
+      "category": "Stages & Mandapams",
+      "pricePerDay": 8000,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=800&q=80",
+      "description": "Heavy-duty aluminum stage decking (height 2-4 ft adjustable) layered with fresh red velvet carpeting and skirting.",
+      "featured": false
+    },
+    {
+      "id": "PROD-09",
+      "name": "Moving Head & LED Par Ambient Lighting Set",
+      "category": "Lighting & Decor",
+      "pricePerDay": 7500,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+      "description": "Includes 16x RGBW LED Par lights, 4x Beam moving heads, DMX controller, and fairy light backdrop curtains.",
+      "featured": true
+    },
+    {
+      "id": "PROD-10",
+      "name": "Focus Metal Halide & Flood Lights (Set of 8)",
+      "category": "Lighting & Decor",
+      "pricePerDay": 3000,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
+      "description": "High lumen LED flood fixtures with heavy iron tripods for parking, dining area, and grounds illumination.",
+      "featured": false
+    },
+    {
+      "id": "PROD-11",
+      "name": "JBL Line Array Pro Sound System + DJ Console",
+      "category": "Sound & Audio",
+      "pricePerDay": 16000,
+      "stock": 6,
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80",
+      "description": "Pro line-array speakers, dual 18-inch subwoofers, digital mixer, 4 cordless Shure microphones, and DJ booth monitor.",
+      "featured": true
+    },
+    {
+      "id": "PROD-12",
+      "name": "Compact PA System with Cordless Mics",
+      "category": "Sound & Audio",
+      "pricePerDay": 4000,
+      "stock": 14,
+      "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
+      "description": "Ideal for small pujas, birthday parties, seminars, and announcements with crisp vocal clarity.",
+      "featured": false
+    },
+    {
+      "id": "PROD-13",
+      "name": "Buffet Warmers & Chafing Dishes (Set of 10)",
+      "category": "Catering Utensils",
+      "pricePerDay": 3500,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=800&q=80",
+      "description": "Stainless steel roll-top buffet chafing dishes with fuel burners and heavy serving spoons.",
+      "featured": false
+    },
+    {
+      "id": "PROD-14",
+      "name": "Industrial Mist Cooling Fans (Set of 4)",
+      "category": "Power & Cooling",
+      "pricePerDay": 3200,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+      "description": "High-velocity oscillating pedestal mist fans with independent water tanks for summer outdoor comfort.",
+      "featured": false
+    },
+    {
+      "id": "PROD-15",
+      "name": "40 KVA Silent Soundproof Diesel Generator",
+      "category": "Power & Cooling",
+      "pricePerDay": 9500,
+      "stock": 4,
+      "image": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
+      "description": "Continuous backup power unit with silent canopy enclosure, switchboard, cables, and dedicated operator.",
+      "featured": true
+    }
+  ],
+  "packages": [
+    {
+      "id": "PKG-01",
+      "title": "Grand Royal Wedding Setup",
+      "subtitle": "Complete end-to-end luxury setup for 800+ guests",
+      "price": 85000,
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "Waterproof German Hanger Tent (60x40 ft)",
+        "Grand Floral Temple Mandapam with Chandeliers",
+        "VIP Maharaja Sofa Set with Couple Footrest",
+        "300 Banquet Chairs with Spandex Covers & Ribbon Bows",
+        "15 Round Dining Tables with Satin Linens",
+        "Full Moving Head Stage Lights & Par Wash Cans",
+        "JBL Line Array Pro Audio System with 4 Wireless Mics",
+        "40 KVA Silent Generator with Standby Operator"
+      ],
+      "bestFor": "Weddings & Engagements"
+    },
+    {
+      "id": "PKG-02",
+      "title": "Reception & Sangeet Night Package",
+      "subtitle": "Glamorous stage, dazzling lights and rocking DJ sound",
+      "price": 55000,
+      "popular": true,
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "Modular Wooden Stage (30x16 ft) with Red Carpet",
+        "Designer LED Backdrop Screen & Floral Wings",
+        "JBL DJ Sound System with Dual Bass Subwoofers",
+        "Moving Head Sharpy Lights + Smoke & Fog Machine",
+        "200 Banquet Chairs & 10 Round Cocktail Tables",
+        "Royal Loveseat for the Bride & Groom",
+        "Ambient Entrance Tunnel with Fairy Light Drop"
+      ],
+      "bestFor": "Receptions, Sangeet & Musical Nights"
+    },
+    {
+      "id": "PKG-03",
+      "title": "Birthday Party & Family Celebration",
+      "subtitle": "Compact, colorful, and vibrant canopy setup",
+      "price": 18000,
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "20x20 ft Arabian Marquee Canopy Tent",
+        "Cake Cutting Stage with Balloon Arch Backdrop",
+        "70 Plastic Armless Chairs with Matching Covers",
+        "4 Buffet Tables with Silk Frills",
+        "Crisp PA Sound System with Bluetooth & 2 Cordless Mics",
+        "Fairy String Lights and 4 LED Wash Cans",
+        "2 Heavy Mist Cooling Fans"
+      ],
+      "bestFor": "Birthdays, Anniversaries & House Parties"
+    },
+    {
+      "id": "PKG-04",
+      "title": "Traditional Puja / Housewarming Combo",
+      "subtitle": "Auspicious mandapam & clean traditional decor",
+      "price": 22000,
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "Traditional Silk Shamiana (30x30 ft)",
+        "Traditional Banana Tree & Marigold Mandapam Decor",
+        "Homam Pit Stage with Fire-safe Flooring",
+        "100 Plastic Chairs + 20 Low Wooden Puja Stools (Peetas)",
+        "Dining Shamiana with 6 Buffet Counters",
+        "PA Sound System with Devotional MP3 & Mic",
+        "Entryway Brass Urli with Floating Flowers"
+      ],
+      "bestFor": "Housewarming, Satyanarayana Vratam & Pujas"
+    },
+    {
+      "id": "PKG-05",
+      "title": "Corporate Conference & Seminar Setup",
+      "subtitle": "Professional, minimalist, and air-conditioned setup",
+      "price": 45000,
+      "popular": false,
+      "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "Air-conditioned German Tent (50x30 ft)",
+        "Dignitary Dais Stage with Podium & Collar Mics",
+        "150 Executive Cushioned Chairs with Writing Pads",
+        "LED Projector Screen (10x8 ft) & Truss Mount",
+        "Conference Sound Setup with Feedback Suppressor",
+        "Registration Desk & Welcome Banner Frames",
+        "Standby Generator Support"
+      ],
+      "bestFor": "Corporate Seminars, Product Launches & AGMs"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "GVR-2026-1001",
+      "userId": "USR-002",
+      "customerName": "Ramesh Kumar",
+      "customerPhone": "+91 98480 12345",
+      "customerEmail": "user@gvr.com",
+      "eventType": "Wedding Ceremony",
+      "eventDate": "2026-10-15",
+      "durationDays": 2,
+      "venueAddress": "Sri Venkateswara Kalyana Mandapam, Ring Road, Vijayawada",
+      "packageId": "PKG-01",
+      "packageName": "Grand Royal Wedding Setup",
+      "customItems": [],
+      "guestCount": 800,
+      "totalAmount": 170000,
+      "advancePaid": 50000,
+      "status": "Confirmed",
+      "notes": "Need setup completed 6 hours before Muhurtham.",
+      "createdAt": "2026-09-10T10:30:00Z"
+    },
+    {
+      "id": "GVR-2026-1002",
+      "userId": "USR-002",
+      "customerName": "Ramesh Kumar",
+      "customerPhone": "+91 98480 12345",
+      "customerEmail": "user@gvr.com",
+      "eventType": "Birthday Party",
+      "eventDate": "2026-10-28",
+      "durationDays": 1,
+      "venueAddress": "Villa 12, Green Meadows, Guntur",
+      "packageId": "PKG-03",
+      "packageName": "Birthday Party & Family Celebration",
+      "customItems": [
+        { "id": "PROD-14", "name": "Industrial Mist Cooling Fans", "quantity": 2, "pricePerDay": 3200 }
+      ],
+      "guestCount": 80,
+      "totalAmount": 24400,
+      "advancePaid": 10000,
+      "status": "Pending",
+      "notes": "Prefer pastel colored canopy drapery.",
+      "createdAt": "2026-09-15T14:15:00Z"
+    },
+    {
+      "id": "GVR-2026-1003",
+      "userId": "USR-003",
+      "customerName": "Suresh Reddy",
+      "customerPhone": "+91 94401 56789",
+      "customerEmail": "suresh.reddy@gmail.com",
+      "eventType": "Reception",
+      "eventDate": "2026-09-02",
+      "durationDays": 1,
+      "venueAddress": "Royal Palace Gardens, Autonagar, Vijayawada",
+      "packageId": "PKG-02",
+      "packageName": "Reception & Sangeet Night Package",
+      "customItems": [],
+      "guestCount": 450,
+      "totalAmount": 55000,
+      "advancePaid": 55000,
+      "status": "Completed",
+      "notes": "Event successfully finished.",
+      "createdAt": "2026-08-25T09:00:00Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "SRV-01",
+      "title": "Luxury Waterproof Tents & German Hangars",
+      "icon": "bi-buildings",
+      "shortDesc": "High-strength modular structures engineered for all weather conditions, from monsoons to summer sun.",
+      "fullDesc": "GVR Suppliers stocks premium German-engineered aluminum clear-span hangars and waterproof pagoda tents. Our structures are certified fire-retardant and weather-resistant, offering massive pillar-less floor space for large gatherings, food courts, and exhibitions.",
+      "highlights": ["Zero interior poles", "100% waterproof heavy PVC", "Heights up to 25 feet", "Customizable sidewalls & AC compatible"]
+    },
+    {
+      "id": "SRV-02",
+      "title": "Grand Wedding Mandapams & Stage Decor",
+      "icon": "bi-gem",
+      "shortDesc": "Breathtaking traditional and contemporary mandapams, velvet backdrops, and majestic arches.",
+      "fullDesc": "Your wedding stage is the focal point of all your memories. We provide hand-crafted fiber pillars, brass kalyana mandapams, floral chandeliers, LED backdrop framing, and royal seating to turn your venue into a palace.",
+      "highlights": ["Floral & fabric customization", "Royal carved Maharaja sofas", "Sturdy modular stage decking", "Sacred fire-pit security"]
+    },
+    {
+      "id": "SRV-03",
+      "title": "Event Lighting & Architectural Illumination",
+      "icon": "bi-lightbulb",
+      "shortDesc": "From subtle ambient golden wash to high-energy Sharpy beams and serial fairy light tunnels.",
+      "fullDesc": "Transform any open ground or banquet hall with our state-of-the-art DMX controllable moving heads, warm LED pars, metal halide high-power ground floods, and thousands of meters of sparkling fairy light cascades.",
+      "highlights": ["Moving heads & Sharpy beams", "Warm amber wedding wash", "Fairy light walkways & tree wraps", "Color matching theme setups"]
+    },
+    {
+      "id": "SRV-04",
+      "title": "Concert Quality Sound & DJ Audio",
+      "icon": "bi-speaker",
+      "shortDesc": "Crystal clear sound reinforcement for speeches, devotional chants, and high-octane DJ dance floors.",
+      "fullDesc": "Equipped with professional JBL Line Array systems, high-power subwoofers, digital mixing boards, and UHF wireless Shure microphones that ensure zero feedback, crisp acoustics, and immersive audio coverage across the venue.",
+      "highlights": ["JBL Line Array setups", "Wireless cordless & collar mics", "Experienced live sound sound engineers", "DJ consoles & monitors"]
+    },
+    {
+      "id": "SRV-05",
+      "title": "Catering Utensils & Dining Infrastructure",
+      "icon": "bi-cup-hot",
+      "shortDesc": "Hygienic stainless steel catering vessels, buffet counters, chafing dishes, and dining tables.",
+      "fullDesc": "We supply pristine, steam-cleaned stainless steel cooking vessels, commercial gas burners, insulated food transport canisters, luxury roll-top buffet warmers, melamine and porcelain crockery, and comfortable dining seating.",
+      "highlights": ["Hygienic & polished utensils", "Roll-top chafing warmers", "Round & rectangular dining tables", "Water dispensers & hand-wash stations"]
+    },
+    {
+      "id": "SRV-06",
+      "title": "Silent Diesel Generators & Outdoor Cooling",
+      "icon": "bi-lightning-charge",
+      "shortDesc": "Uninterrupted power backup with acoustic silent gensets and high-performance mist cooling fans.",
+      "fullDesc": "Never let power cuts ruin your auspicious moment. GVR Suppliers provides 15 KVA to 125 KVA acoustic silent diesel generators with qualified electricians, heavy-gauge cables, distribution boards, and heavy industrial mist fans.",
+      "highlights": ["Silent acoustic enclosures", "100% fuel-included service options", "Continuous on-site operator", "Powerful mist fans & spot cooling"]
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "INQ-001",
+      "name": "Kalyan Varma",
+      "phone": "+91 99887 76655",
+      "email": "kalyan@gmail.com",
+      "eventDate": "2026-11-20",
+      "eventType": "Wedding",
+      "message": "Looking for 50x80 ft German tent with AC and 500 chairs in Guntur.",
+      "date": "2026-09-14",
+      "status": "Responded"
+    },
+    {
+      "id": "INQ-002",
+      "name": "Ananya Sharma",
+      "phone": "+91 98112 33445",
+      "email": "ananya@yahoo.com",
+      "eventDate": "2026-10-05",
+      "eventType": "Corporate Exhibition",
+      "message": "Need 10 Pagoda canopies and lighting for a 2-day handloom expo.",
+      "date": "2026-09-17",
+      "status": "New"
+    }
+  ]
+}
